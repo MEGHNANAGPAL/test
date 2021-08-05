@@ -1,0 +1,11 @@
+template: true
+
+valuesFilePath: ./values.yml
+
+resources:"
+	- name: meghna_test_git
+	type: GitRepo
+	configuration:
+gitProvider: {{https://github.com/MEGHNANAGPAL/test.git}}
+path: {{.values.meghna_test_git.https://github.com/MEGHNANAGPAL/test.git}}
+
